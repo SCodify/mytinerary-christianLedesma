@@ -1,0 +1,102 @@
+[
+  {
+    "titulo": "Explore New York",
+    "nombre": "John Doe",
+    "foto": "https://i.imgur.com/DrxlXLo.png",
+    "precio": 4,
+    "duracion": 4,
+    "likes": ["johndoe123", "traveler23", "adventuregirl"],
+    "hashtags": ["#NYC", "#BigApple", "#Travel", "#ExploreNYC"],
+    "comentarios": ["Great experience!", "I loved it!", "Highly recommended."]
+  },
+  {
+    "titulo": "Discover New York",
+    "nombre": "Emily Davis",
+    "foto": "https://i.imgur.com/Y7U7JSM.png",
+    "precio": 3,
+    "duracion": 3,
+    "likes": ["emilyadventures", "nycexplorer", "wanderlust22"],
+    "hashtags": ["#NewYorkCity", "#ExploreNY", "#CityLife"],
+    "comentarios": ["Amazing trip!", "New York is fantastic.", "Must-see places."]
+  },
+  {
+    "titulo": "Experience Paris",
+    "nombre": "Jane Smith",
+    "foto": "https://i.imgur.com/jeIFByZ.png",
+    "precio": 5,
+    "duracion": 3,
+    "likes": ["parislover", "wanderlust22", "eiffeltowerfan"],
+    "hashtags": ["#Paris", "#France", "#Travel", "#ParisianAdventure"],
+    "comentarios": ["Paris is amazing!", "I'll be back for sure.", "Incredible trip."]
+  },
+  {
+    "titulo": "Parisian Delights",
+    "nombre": "Sophia Johnson",
+    "foto": "https://i.imgur.com/2qxYuo6.png",
+    "precio": 4,
+    "duracion": 4,
+    "likes": ["sophiainparis", "frenchcuisine", "parisexplore"],
+    "hashtags": ["#ParisLife", "#EiffelTower", "#CafeCulture", "#ExploreParis"],
+    "comentarios": ["Lovely experience!", "Delicious food.", "Parisian charm."]
+  },
+  {
+    "titulo": "Roam Around Rome",
+    "nombre": "Mark Johnson",
+    "foto": "https://i.imgur.com/jtDGc0W.png",
+    "precio": 3,
+    "duracion": 2,
+    "likes": ["historybuff", "exploreitaly", "romanista"],
+    "hashtags": ["#Rome", "#Italy", "#Travel", "#RomanHistory"],
+    "comentarios": ["Rome's history is breathtaking.", "Great guide!", "Must-visit."]
+  },
+  {
+    "titulo": "Roman Adventure",
+    "nombre": "Olivia Brown",
+    "foto": "https://i.imgur.com/QUiR6Kc.png",
+    "precio": 2,
+    "duracion": 3,
+    "likes": ["oliviaexplorer", "italylover", "ancientrome"],
+    "hashtags": ["#AncientRome", "#ItalianAdventure", "#Colosseum", "#RomanHoliday"],
+    "comentarios": ["Roman ruins are fascinating.", "Enjoyed every moment.", "History come alive."]
+  },
+  {
+    "titulo": "London Explorer",
+    "nombre": "Michael Wilson",
+    "foto": "https://i.imgur.com/A96XRbQ.png",
+    "precio": 4,
+    "duracion": 3,
+    "likes": ["londonlover", "ukadventures", "teatimefan"],
+    "hashtags": ["#London", "#UnitedKingdom", "#Travel", "#BritishExperience"],
+    "comentarios": ["London's charm is unique.", "Fantastic tour!", "Tea at its best."]
+  },
+  {
+    "titulo": "Historic London",
+    "nombre": "Sophie Turner",
+    "foto": "https://i.imgur.com/7ueN9a6.png",
+    "precio": 3,
+    "duracion": 2,
+    "likes": ["historyenthusiast", "explorebritain", "londoncalling"],
+    "hashtags": ["#LondonHistory", "#BritishMuseum", "#Landmarks", "#LondonTour"],
+    "comentarios": ["Fascinating historical sites.", "Loved every moment.", "A journey through time."]
+  },
+  {
+    "titulo": "London by Night",
+    "nombre": "Alex Thompson",
+    "foto": "https://i.imgur.com/imhMqkK.png",
+    "precio": 5,
+    "duracion": 4,
+    "likes": ["nightowl", "citylights", "londonafterdark"],
+    "hashtags": ["#LondonNightlife", "#NightTour", "#PartyinLondon", "#CityLights"],
+    "comentarios": ["London comes alive at night.", "Unforgettable evening.", "Nighttime magic."]
+  },
+  {
+    "titulo": "Mykonos Getaway",
+    "nombre": "Emily Davis",
+    "foto": "https://i.imgur.com/Y7U7JSM.png",
+    "precio": 4,
+    "duracion": 3,
+    "likes": ["beachlover", "greeceadventure", "partygoer"],
+    "hashtags": ["#Mykonos", "#Greece", "#Travel", "#BeachParadise"],
+    "comentarios": ["Best beach vacation!", "Mykonos nightlife rocks.", "Paradise on Earth."]
+  }
+]

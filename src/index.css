@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+  font-family: 'Ubuntu', sans-serif;
+}
+
+:root {
+  --light-color: #e9fffb;
+  --dark-color: #008080;
+  --shadow: 0px 6px 19px -1px rgba(0,128,128,0.57);
+}
+
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}

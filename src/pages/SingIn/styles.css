@@ -1,0 +1,156 @@
+.singIn__container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 10%;
+}
+
+.singIn__left__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 5;
+  padding: 40px 0;
+}
+
+.singIn__logo{
+  border-radius: 50%;
+  width: 150px;
+  box-shadow: var(--shadow);
+}
+
+.singIn__card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;  
+  padding: 45px;
+  background-color: var(--light-color);
+  flex-grow: 1;
+  margin: 30px 0 30px 10%;
+  border-radius: 10px;
+  box-shadow: 0px 6px 19px -1px rgba(0, 0, 0, 0.5);
+  max-height: min-content;
+}
+
+.singIn__card span,
+.singIn__card strong,
+.singIn__card p,
+.singIn__card h2,
+label, select {
+  color: rgb(100, 100, 100);
+}
+
+.singIn__card strong {
+  text-align: center;
+}
+
+.singIn__google__container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+hr {
+  outline: 1px solid rgb(180, 180, 180);
+  border: none;
+  width: 100%;
+}
+
+.anchor__singIn {
+  color: var(--dark-color);
+}
+
+.singIn__form {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.singIn__form input, select {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(180, 180, 180);
+  padding: 10px;
+  width: 100%;
+}
+
+select::first-line {
+  border-radius: none;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+fieldset{
+  width: 100%;
+  display: flex;
+  border: none;
+  gap:20px
+}
+
+.singIn__form button{
+  margin-top: 30px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  align-self: end;
+}
+
+.singIn__text {
+  align-self: flex-start;
+}
+
+@media (max-width: 750px) {
+  .singIn__left__container{
+    display: none;
+  }
+  .singIn__card{
+    margin: 30px 0;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .singIn__card{
+    margin: 30px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .singIn__text, .singIn__form button {
+    text-align: center;
+    align-self: center;
+  }
+}
+
+@media (max-width: 500px) {
+  label {
+    flex-wrap: wrap;
+  }
+  .singIn__card{
+    padding: 20px;
+  }
+}
+

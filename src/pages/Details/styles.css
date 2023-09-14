@@ -1,0 +1,41 @@
+.containerItineraries {
+    min-height: calc(100vh - 114px);
+    padding: 60px 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    color: var(--dark-color);
+    font-size: 1.5rem;
+}
+
+.return__btn {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    outline: none;
+    background-color: #E61C51;
+    color: var(--light-color);
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 35.2px;
+    box-shadow: 0px 5px 27px -4px rgba(230, 28, 82, 0.6);
+    animation: miAnimacion 1.2s infinite ease alternate;
+}
+
+@media (max-width: 950px) {
+    .containerItineraries {
+        padding: 60px 20%;
+    }
+}
+@media (max-width: 750px) {
+    .containerItineraries {
+        padding: 60px 10%;
+    }
+}

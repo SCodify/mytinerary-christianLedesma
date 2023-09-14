@@ -1,0 +1,107 @@
+nav {
+    display: flex;
+    justify-content: end;
+    gap: 25px;
+    align-items: center;
+    width: 100%;
+}
+
+.nav__btn {
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    font-weight: bold;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.close__icon{
+    stroke: var(--light-color);
+}
+
+.nav__btnMenu {
+    cursor: pointer;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    min-width: 40px;
+    min-height: 40px;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+nav a {
+    color: var(--dark-color);
+    font-weight: 600;
+}
+
+.user__img {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .nav__btnMenu {
+        display: flex;
+    }
+
+    nav {
+        height: 0;
+        opacity: 0;
+        padding: 0 10px;
+        overflow: hidden;
+        z-index: 2;
+        position: absolute;
+        margin-right: 10%;
+        right: 0;
+        top: 80px;
+        border-radius: 10px;
+        flex-direction: column;
+        align-items: end;
+        justify-content: flex-start;
+        width: min-content;
+        background-color: var(--dark-color);
+        transition: all 0.5s ease;
+        gap: 15px;
+    }
+    .close__icon{
+        stroke: var(--dark-color);
+    }
+
+    .mostrar {
+        opacity: 100%;
+        height: 245px;
+        width: 126.47px;
+        padding: 10px 10px;
+    }
+
+    nav a {
+        color: var(--light-color);
+    }
+
+    .nav__btn {
+        background-color: var(--light-color);
+        color: var(--dark-color);
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .user__img {
+        align-self: center;
+        border-radius: 5px;
+        width: 106.47px;
+        height: 106.47px;
+
+    }
+}

@@ -1,0 +1,111 @@
+.containerCitiesPage {
+    height: calc(450px - 97px);
+}
+
+.img__citiesPage {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    position: relative;
+    top:-97px;
+}
+
+.centerContentCitiesPage {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 97px;
+    top: 0;
+    z-index: 4;
+    width: 100%;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.containerCitiesPage__text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    border-radius: 15px;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    opacity: 80%;
+    white-space: break-spaces;
+    top: -97px;
+    text-align: center;
+}
+
+.container__cardCities {
+    padding: 20px 10%;
+    min-height: calc(100vh - 97px - 114px);
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    justify-items: center;
+    align-content: start;
+}
+
+.noResults{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    width: 100%;
+    color: #E61C51;
+    text-align: center;
+}
+
+@media (max-width: 1400px) {
+    .container__cardCities {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 1100px) {
+    .container__cardCities {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 830px) {
+    .container__cardCities {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .centerContentCitiesPage {
+        padding-top: 100px;
+    }
+    .img__citiesPage {
+        top: -100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .containerCitiesPage__text {
+        width: 90%;
+        margin: 0 10%;
+        
+    }
+    
+    .containerCitiesPage__text h3 {
+        width: 100%;
+        white-space: break-spaces;
+        word-wrap: break-word;
+    }
+    
+    .container__cardCities {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 320px) {
+    .containerCitiesPage__text {
+        width: 80%;
+        padding: 20px;
+    }
+}
